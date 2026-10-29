@@ -69,7 +69,7 @@ ht-degree: 1%
 
 In diesem Video erhalten Sie eine Einführung in den Benutzer-Workflow in Marketing Campaign Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440213/?captions=ger&learn=on)
 
 
 Ein typischer Workflow in Marketing Campaign Analytics besteht aus den folgenden Aktivitäten:
