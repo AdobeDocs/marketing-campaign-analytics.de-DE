@@ -1,14 +1,19 @@
 ---
-title: Detaillierte Einblicke in Mix Modeler
-description: Erkunden Sie die technische Methodik hinter Adobe Mix Modeler, einschließlich Multi-Touch-Attribution, Marketing-Mix-Modellierung, Transfer Learning und Budgetoptimierung.
+title: Detaillierte Einblicke in Marketing Campaign Analytics
+description: Erkunden Sie die technische Methodik hinter Adobe Marketing Campaign Analytics, einschließlich Multi-Touch-Attribution, Marketing-Mix-Modellierung, Transfer Learning und Budgetoptimierung.
 feature: Administration
 hide: true
+TQID: 'https://experienceleague.adobe.com/vIeES6bmdXOt6GIEA5Mt--IbyJ5g64kf-gyb6oEK0Ro'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
     internal-label: Marketing touch attribution
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -24,23 +29,41 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2853'
 ht-degree: 0%
 ---
 
 # Tiefere Einblicke
 
 
-Adobe Mix Modeler ist eine einheitliche, KI/ML-gestützte Messplattform, die Multi-Touch-Attribution (MTA) und Marketing-Mix-Modellierung (MMM) kombiniert, um genaue, skalierbare und zukunftssichere Marketing-Erkenntnisse zu liefern. In diesem Artikel werden die Methoden, Designoptionen und technischen Innovationen hinter Mix Modeler detailliert beschrieben. und basiert auf [dieser Summit 2025-Sitzung](https://business.adobe.com/de/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"} die eine detaillierte Aufschlüsselung der Methodik, Designentscheidungen und technischen Innovationen hinter Mix Modeler enthält.
+Adobe Marketing Campaign Analytics ist eine einheitliche, KI/ML-gestützte Messplattform, die Multi-Touch-Attribution (MTA) und Marketing-Mix-Modellierung (MMM) kombiniert, um genaue, skalierbare und zukunftssichere Marketing-Erkenntnisse zu liefern. In diesem Artikel werden die Methoden, Designoptionen und technischen Innovationen hinter Marketing Campaign Analytics detailliert beschrieben. und basiert auf [dieser Summit 2025-Sitzung](https://business.adobe.com/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"} die eine detaillierte Aufschlüsselung der Methodik, Designentscheidungen und technischen Innovationen hinter Marketing Campaign Analytics enthält.
 
-Mit zunehmender Komplexität des Marketings bleiben herkömmliche Messansätze hinter den Erfordernissen zurück. Fragmentierte Daten, sich verändernde Datenschutzbeschränkungen und die Notwendigkeit, sowohl Geschwindigkeit als auch Strenge zu gewährleisten, machen es erforderlich, die Bewertung der Marketing-Leistung zu überdenken. Adobes Antwort ist Mix Modeler: ein integriertes System, das maschinelles Lernen nutzt, um mehrere Datenquellen zusammenzufügen und Paradigmen zu einer kohärenten Strategie zu modellieren.
+Mit zunehmender Komplexität des Marketings bleiben herkömmliche Messansätze hinter den Erfordernissen zurück. Fragmentierte Daten, sich verändernde Datenschutzbeschränkungen und die Notwendigkeit, sowohl Geschwindigkeit als auch Strenge zu gewährleisten, machen es erforderlich, die Bewertung der Marketing-Leistung zu überdenken. Adobes Antwort ist Marketing Campaign Analytics: ein integriertes System, das maschinelles Lernen nutzt, um mehrere Datenquellen zusammenzufügen und Paradigmen zu einer kohärenten Strategie zu modellieren.
 
 
 >[!TIP]
 >
->Einer der Hauptvorteile von Mix Modeler ist die Barrierefreiheit der Lösung für Marketing-Fachleute. Die Anwendung vereinfacht komplexe Datenwissenschaften durch eine benutzerfreundliche Oberfläche, die keinen datenwissenschaftlichen Hintergrund erfordert. Wenn Sie an einem tiefen Einblick interessiert sind, werden in diesem Artikel die technischen Entscheidungen bei der Entwicklung von Mix Modeler untersucht. Der Artikel setzt eine gewisse Vertrautheit mit (fortgeschrittenen) datenwissenschaftlichen Konzepten voraus.
+>Einer der Hauptvorteile von Marketing Campaign Analytics ist die Barrierefreiheit der Lösung für Marketing-Fachleute. Die Anwendung vereinfacht komplexe Datenwissenschaften durch eine benutzerfreundliche Oberfläche, die keinen datenwissenschaftlichen Hintergrund erfordert. Wenn Sie an einem tiefen Einblick interessiert sind, werden in diesem Artikel die technischen Entscheidungen bei der Entwicklung von Marketing Campaign Analytics untersucht. Der Artikel setzt eine gewisse Vertrautheit mit (fortgeschrittenen) datenwissenschaftlichen Konzepten voraus.
 
 In diesem Artikel werden die grundlegenden Komponenten detaillierter erläutert. Diese grundlegenden Komponenten sind:
 
@@ -55,7 +78,7 @@ In diesem Artikel werden die grundlegenden Komponenten detaillierter erläutert.
 
 ### Überblick
 
-Das Multi-Touch-Attributionsmodell (MTA), auf dem Mix Modeler basiert, basiert auf einem auf Daten auf Ereignisebene trainierten Modell für das zeitdiskrete Überleben. Zu den Daten gehören Suchvorgänge, Klicks, Produktansichten, Hinzufügen zu Warenkörben und Checkouts. Mithilfe des überwachten Lernens schätzt das Modell die bedingte Konversionswahrscheinlichkeit bei jedem Schritt im Kunden-Journey. Das Modell berücksichtigt sowohl Konversions- als auch Nicht-Konversions-Kunden-Journey-Pfade, um zu messen, wie verschiedene Marketing-Touchpoints das Kundenverhalten im Laufe der Zeit beeinflussen. Der Nicht-Konversionspfad ist genauso wichtig wie der Konversionspfad. Der Kontrast zwischen den beiden Pfaden hilft zu verstehen, ob ein bestimmter Typ von Marketing-Touchpoint die Konversion effektiv steigert. Wenn beispielsweise ein Touchpoint-Typ auf einem Nicht-Konversionspfad genauso wahrscheinlich erscheint wie auf einem Konversionspfad, hat dieser Touchpoint keine Auswirkungen auf die Konversion. Dieses Verhalten steht im Gegensatz zu einem Touchpoint, der häufig auf einem Konversionspfad und nicht auf einem Nicht-Konversionspfad erscheint.
+Das Multi-Touch-Attributionsmodell (MTA), auf dem Marketing Campaign Analytics basiert, basiert auf einem auf Daten auf Ereignisebene trainierten Modell für das zeitdiskrete Überleben. Zu den Daten gehören Suchvorgänge, Klicks, Produktansichten, Hinzufügen zu Warenkörben und Checkouts. Mithilfe des überwachten Lernens schätzt das Modell die bedingte Konversionswahrscheinlichkeit bei jedem Schritt im Kunden-Journey. Das Modell berücksichtigt sowohl Konversions- als auch Nicht-Konversions-Kunden-Journey-Pfade, um zu messen, wie verschiedene Marketing-Touchpoints das Kundenverhalten im Laufe der Zeit beeinflussen. Der Nicht-Konversionspfad ist genauso wichtig wie der Konversionspfad. Der Kontrast zwischen den beiden Pfaden hilft zu verstehen, ob ein bestimmter Typ von Marketing-Touchpoint die Konversion effektiv steigert. Wenn beispielsweise ein Touchpoint-Typ auf einem Nicht-Konversionspfad genauso wahrscheinlich erscheint wie auf einem Konversionspfad, hat dieser Touchpoint keine Auswirkungen auf die Konversion. Dieses Verhalten steht im Gegensatz zu einem Touchpoint, der häufig auf einem Konversionspfad und nicht auf einem Nicht-Konversionspfad erscheint.
 
 ![Daten auf Ereignisebene](/help/assets/event-level-data.png)
 
@@ -106,7 +129,7 @@ Die wichtigsten Konzepte der Multi-Touch-Attribution sind:
 
 ### Vorteile
 
-Der für Mix Modeler gewählte Multi-Touch-Attributionsansatz hat mehrere Hauptvorteile.
+Der für Marketing Campaign Analytics gewählte Multi-Touch-Attributionsansatz hat mehrere Hauptvorteile.
 
 * Berücksichtigen Sie sowohl Konversions- als auch Nicht-Konversionspfade und stellen Sie so eine genauere Schätzung der tatsächlichen Medienwirkung sicher.
 * Integrieren Sie Anzeigen und abnehmende Renditen, die das tatsächliche Kundenverhalten modellieren, und vermeiden Sie übermäßig vereinfachte Annahmen, die häufig in regelbasierten Modellen zu finden sind.
@@ -114,12 +137,12 @@ Der für Mix Modeler gewählte Multi-Touch-Attributionsansatz hat mehrere Hauptv
 * Unterstützen Sie eine intuitive Touchpoint-Attribution, die eine klare Interpretation im Gegensatz zu anderen Methoden wie Hidden-Markov-Modellen ermöglicht.
 * Bietet eine starke Leistung und hohe Prädiktionsgenauigkeit im Vergleich zu anderen Klassifizierungsalgorithmen.
 
-Mix Modeler bietet eine [marketerfreundliche Oberfläche](/help/models/insights.md#attribution) um die Einblicke zu erfassen, die aus der Multi-Touch-Attribution resultieren.
+Marketing Campaign Analytics bietet eine [marketerfreundliche Oberfläche](/help/models/insights.md#attribution) um die Einblicke zu erfassen, die aus der Multi-Touch-Attribution resultieren.
 
 ![Modellattribution Insights](/help/assets/model-insights-attribution.png)
 
 
-Obwohl die Multi-Touch-Attribution alle diese Vorteile bietet, ist Mix Modeler nicht in vollem Umfang auf Konversionserkenntnisse aus Daten auf Ereignisebene angewiesen. Die Modellierung des Marketing-Mix ist eine weitere grundlegende Komponente, um Daten auf aggregierter Ebene zu berücksichtigen.
+Obwohl die Multi-Touch-Attribution alle diese Vorteile bietet, ist Marketing Campaign Analytics nicht in vollem Umfang auf Konversionserkenntnisse aus Daten auf Ereignisebene angewiesen. Die Modellierung des Marketing-Mix ist eine weitere grundlegende Komponente, um Daten auf aggregierter Ebene zu berücksichtigen.
 
 ## Marketing-Mix-Modellierung (MMM)
 
@@ -142,9 +165,9 @@ Die wichtigsten Konzepte der Marketing-Mix-Modellierung sind:
 * **Multiplikatives Modell**: Umsätze oder Konversionen sind das Produkt einer Grundlinie und von Medienmultiplikatoren.
 
   Anstelle eines additiven Modells:
-  *Wöchentliche Konversionen = Grundlegender Bedarf **+**&#x200B;Multiplikator für **+**&#x200B;Multiplikator für Anzeige **+**….*
+  *Wöchentliche Konversionen = Grundlegender Bedarf **+**Multiplikator für **+**Multiplikator für Anzeige **+**….*
 Verwenden eines multiplikativen Modells:
-  *Wöchentliche Konversionen = Grundlegender Bedarf **x**&#x200B;Multiplikator der Suche **x**&#x200B;Multiplikator der Anzeige **x**….*
+  *Wöchentliche Konversionen = Grundlegender Bedarf **x**Multiplikator der Suche **x**Multiplikator der Anzeige **x**….*
 
   Oder in einer Formel: ** Y = ⨍<sub>BL</sub>(X<sub>faktoren</sub>;</sub><sub>faktoren</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;<sub>S</sub>) ⨍<sub>D(X<sub>D</sub>;<sub></sub>)*
 
@@ -177,7 +200,7 @@ Die Vorteile des Marketing-Mix-Modellierungsansatzes basieren auf der Tatsache, 
 * Zeitlich unterschiedliche Auswirkungen, bei denen die gleiche Marketinginvestition aufgrund externer Faktoren zu unterschiedlichen Zeitpunkten zu unterschiedlichen Renditen führen kann.
 * Budgetempfehlungen im Zeitverlauf, wenn die erwarteten Marktbedingungen oder Basisschwankungen im Zeitverlauf bei der Budgetzuweisung hilfreich sind.
 
-Mix Modeler bietet eine [marketerfreundliche Oberfläche](/help/models/insights.md#attribution) um die verschiedenen Erkenntnisse aus der Marketing-Mix-Modellierung zu erfassen. Beispielsweise eine Aufschlüsselung des Faktorbeitrags, um den Anteil der Basisumrechnungen anzuzeigen, der verschiedenen im Modell enthaltenen Faktoren zugeordnet werden kann.
+Marketing Campaign Analytics bietet eine [marketerfreundliche Oberfläche](/help/models/insights.md#attribution) um die verschiedenen Erkenntnisse aus der Marketing-Mix-Modellierung zu erfassen. Beispielsweise eine Aufschlüsselung des Faktorbeitrags, um den Anteil der Basisumrechnungen anzuzeigen, der verschiedenen im Modell enthaltenen Faktoren zugeordnet werden kann.
 
 
 ![Verteilung der Faktorbeiträge](/help/assets/factors-example.png)
@@ -206,13 +229,13 @@ Dieses vereinfachte Beispiel zeigt, wie ein Ansatz zur multiplikativen Modellier
 Besteht die Möglichkeit, von einem festen Budget wegzukommen und das Budget zu verschieben, aber das Gesamtbudget auf 840 Dollar zu belassen?
 
 * Im additiven Modell besteht aus Modellierungsperspektive kein Anreiz für eine Änderung, da keine Interaktion mit der Grundlinie besteht. Eine Pauschale ist optimal. Wenn Sie $1 von November auf Mai verschieben, ist der Gewinn im Mai aufgrund sinkender Renditen geringer als der Rückgang im November.
-* In einem multiplikativen Modell gibt es Raum für Veränderungen. Basierend auf der Basislinie können Sie Budgets von Wintermonaten in Sommermonate verschieben. Der Zuwachs im Sommermonat ist aufgrund des Multiplikationseffekts größer als der Verlust im Wintermonat. Das Ausmaß der Verschiebung und der Wechsel zu wird in den [Budgetoptimierungsalgorithmen) behandelt, &#x200B;](#budget-optimization) in der Marketing-Mix-Modellierung verwendet werden.
+* In einem multiplikativen Modell gibt es Raum für Veränderungen. Basierend auf der Basislinie können Sie Budgets von Wintermonaten in Sommermonate verschieben. Der Zuwachs im Sommermonat ist aufgrund des Multiplikationseffekts größer als der Verlust im Wintermonat. Das Ausmaß der Verschiebung und der Wechsel zu wird in den [Budgetoptimierungsalgorithmen) behandelt, ](#budget-optimization) in der Marketing-Mix-Modellierung verwendet werden.
 
 
 
 ## Lerntransfer
 
-Neben der Multi-Touch-Attribution und der Marketing-Mix-Modellierung ist das Experimentieren eine weitere wichtige Säule bei der Lösung von Marketing-Messproblemen. Obwohl das Experimentieren nicht im Rahmen von Mix Modeler implementiert wird, können Sie mithilfe von Experimenten, wie z. B. das Deaktivieren von Marketing in bestimmten Märkten, die kausalen Auswirkungen von Marketing auf den Umsatz verstehen.
+Neben der Multi-Touch-Attribution und der Marketing-Mix-Modellierung ist das Experimentieren eine weitere wichtige Säule bei der Lösung von Marketing-Messproblemen. Obwohl das Experimentieren nicht im Rahmen von Marketing Campaign Analytics implementiert wird, können Sie mithilfe von Experimenten, wie z. B. das Deaktivieren von Marketing in bestimmten Märkten, die kausalen Auswirkungen von Marketing auf den Umsatz verstehen.
 
 Adobe empfiehlt und nutzt Transfer-Learning, um Einblicke aus der Multi-Touch-Attribution, Marketing-Mix-Modellierung, Experimenten und anderen früheren Wissensquellen zu kombinieren.  Diese Mischung kann als mehrschichtiger Ansatz beschrieben werden. Jede Schicht weist Lücken auf, um die Einschränkungen bei der Herstellung eines zusammenhängenden Modells zu veranschaulichen. Wenn Sie die Ebenen jedoch auf die richtige Art und Weise stapeln, können Sie die Lücken im kombinierten Modell ausgleichen.
 Wenden Sie diese Analogie an, wenn Sie die Kombination aus Multi-Touch-Attribution, Marketing-Mix-Modellierung, Experimentieren und früheren Wissensquellen verwenden. Vermischen Sie diese Komponenten so, dass die Kombination am wenigsten an Fehlern in jeder der Komponenten leidet.
@@ -291,10 +314,10 @@ Im zweiten Beispiel sind die Einheiten der beiden Konversionen nicht ähnlich (M
 
 ## Zusammenfassung
 
-Adobe Mix Modeler ist mehr als nur ein Messwerkzeug. Mix Modeler ist eine Entscheidungs-Support-Engine und bietet folgende Stärken:
+Adobe Marketing Campaign Analytics ist mehr als nur ein Messwerkzeug. Marketing Campaign Analytics ist eine Entscheidungs-Support-Engine und bietet folgende Stärken:
 
 * Die Fähigkeit, reale Komplexität mit statistischer Genauigkeit zu modellieren
 * Eine einheitliche Integration verschiedener Daten- und Modellierungsparadigmen
 * Eine zukunftssichere Architektur, die sich an Trends zur Datenverwerfung anpasst
 
-Die Kombination aus Interpretierbarkeit und Leistung hat Mix Modeler in den Mittelpunkt der datengesteuerten Marketing-Transformation von Adobe gerückt. Mix Modeler ermöglicht es Marketing-Teams, schnellere, intelligentere und besser abgestimmte Investitionsentscheidungen zu treffen.
+Die Kombination aus Interpretierbarkeit und Leistung hat Marketing Campaign Analytics in den Mittelpunkt der datengesteuerten Marketing-Transformation von Adobe gerückt. Marketing Campaign Analytics ermöglicht es Marketing-Teams, schnellere, intelligentere und besser abgestimmte Investitionsentscheidungen zu treffen.

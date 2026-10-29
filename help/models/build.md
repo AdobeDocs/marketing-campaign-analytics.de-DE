@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Modellen in Mix Modeler
-description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließlich der Einrichtung, Konfiguration und Angabe erweiterter Optionen für das Modell. Wie Konversionsziele, Touchpoints, Werbematerial und Planung.
+title: Erstellen von Modellen in Marketing Campaign Analytics
+description: Erfahren Sie, wie Sie in Marketing Campaign Analytics Modelle erstellen, einschließlich der Einrichtung, Konfiguration und Angabe erweiterter Optionen für das Modell. Wie Konversionsziele, Touchpoints, Werbematerial und Planung.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
@@ -32,22 +32,24 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 9%
+source-wordcount: '1903'
+ht-degree: 7%
 ---
 # Erstellen von Modellen
 
+{{mm-mca-rebranding}}
+
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen Schritt-für-Schritt-Konfigurationsablauf für Modelle.
 
-Wählen Sie in der ![Modelle](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in [!DNL Mix Modeler] die Option **[!UICONTROL Open model canvas]** aus.
+Wählen Sie in der ![Modelle](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in [!DNL Marketing Campaign Analytics] die Option **[!UICONTROL Open model canvas]** aus.
 
 ## Einrichten
 
 Im **[!UICONTROL Setup]** Schritt definieren Sie einen Namen und eine Beschreibung:
 
-1. Geben Sie Ihre **[!UICONTROL Name]** ein, z. B. `Demo model`. Geben Sie einen **[!UICONTROL Description]** ein, z. B. `Demo model to explore AI features of Mix Modeler`.
+1. Geben Sie Ihre **[!UICONTROL Name]** ein, z. B. `Demo model`. Geben Sie einen **[!UICONTROL Description]** ein, z. B. `Demo model to explore AI features of Marketing Campaign Analytics`.
 
    ![Modellname und -beschreibung](/help/assets/model-name-description.png)
 
@@ -61,7 +63,12 @@ Im **[!UICONTROL Setup]** Schritt definieren Sie einen Namen und eine Beschreibu
 >abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.<br/><br/>Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben geben."
 
 
-Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration umfasst die Definition von Konversionszielen, Marketing-Touchpoints, die geeignete Datenpopulation, externe und interne Faktoren und mehr.
+Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration umfasst die Aktivierung der vollständigen funnel-Modellierung, die Definition von Konversionszielen, Marketing-Touchpoints, die geeignete Datenpopulation, externe und interne Faktoren und mehr.
+
+1. Wenn Sie die [vollständige funnel-Modellierung](./overview.md#full-funnel-modeling) im **[!UICONTROL Full funnel model]** Abschnitt aktivieren möchten:
+
+   1. Wählen Sie **[!UICONTROL Enable full funnel modeling]** aus.
+   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Upper funnel conversion]** eine obere Konvertierung aus.
 
 1. Im **[!UICONTROL Conversion goal]** Abschnitt:
 
@@ -115,21 +122,41 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Wählen Sie **Und** und **Oder** zwischen Containern aus, um komplexere Definitionen für Ihre auswählbare Datenpopulation zu erstellen.
 
-1. Im Abschnitt **[!UICONTROL Factor dataset]** können Sie Datensätze verwalten, die interne oder externe Faktoren enthalten.
-
-   ![Modell - Schritt für Factor-Datensatz](../assets/model-factors-dataset-step.png)
+1. Im Abschnitt **[!UICONTROL Factor]** können Sie Datensätze verwalten, die interne oder externe Faktoren enthalten.
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-     1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+     ![Modell - Faktorschritt](../assets/model-factors-dataset-step.png)
+
+     1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+
         Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
      1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
 
    * Um einen Faktor-Datensatz zu löschen, wählen Sie ![CrossSize200](/help/assets/icons/CrossSize400.svg) aus.
 
+   * Wenn Ihr Modell für die [vollständige funnel-Modellierung](./overview.md#full-funnel-modeling) aktiviert ist, müssen Sie kausale Beziehungen definieren und kausale Beziehungen für Faktoren berücksichtigen, die Sie dem Modell hinzufügen.
+
+     ![Modell - Faktorschritt funnel](../assets/model-factors-dataset-step-funnel.png)
+
+     * Um kausale Beziehungen zu definieren, wählen Sie in der Tabelle **[!UICONTROL Causal relationship]** für jeden Kanal (**[!UICONTROL Source]**) ![SelectBox](/help/assets/icons/SelectBox.svg) aus, ob der obere Konversions-KPI (wie im Abschnitt **[!UICONTROL Upper funnel conversion]** **[!UICONTROL Full funnel modeling]** ausgewählt) und der untere Konversions-KPI (wie im Abschnitt **[!UICONTROL Conversion goal]** ausgewählt) durch den Kanal beeinflusst **[!UICONTROL Conversion]**.
+
+       Sie können ![SelectBox](/help/assets/icons/SelectBox.svg) die Spaltenüberschrift für den oberen und unteren Konversions-KPI auswählen, um schnell zu definieren, dass alle Kanäle den KPI beeinflussen.
+
+     * Wenn Sie Faktoren definiert haben, definieren Sie kausale Faktorbeziehungen. Um kausale Faktorbeziehungen zu definieren, wählen Sie in der **[!UICONTROL Factor causal relationships]**-Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) für jeden Faktor (**[!UICONTROL Factor]**) aus, ob der obere Konversions-KPI (wie im Abschnitt **[!UICONTROL Upper funnel conversion]** **[!UICONTROL Full funnel modeling]** ausgewählt) und der untere Konversions-KPI (wie im Abschnitt **[!UICONTROL Conversion goal]** ausgewählt) durch den Faktor beeinflusst **[!UICONTROL Conversion]**.
+
+       Sie können ![SelectBox](/help/assets/icons/SelectBox.svg) die Spaltenüberschrift für den oberen Konversions-KPI und den unteren Konversions-KPI auswählen, um schnell zu definieren, dass alle Faktoren den KPI beeinflussen.
+
 
 1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … im **[!UICONTROL Define lookback window]** Abschnitt ein.
+
+   Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert ](./overview.md#full-funnel-modeling):
+
+   * Um das Lookback-Fenster für funnel unten zu definieren, geben Sie in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … einen Wert zwischen `1` und `52` für **[!UICONTROL Lower funnel]** im **[!UICONTROL Define lookback window]** Abschnitt ein.
+
+   * Um das Lookback-Fenster für den oberen funnel zu definieren, geben Sie im Abschnitt **[!UICONTROL Define lookback window]** einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** …-**[!UICONTROL weeks prior to the upper funnel conversion]** für **[!UICONTROL Upper funnel]** ein.
+
 
 1. Um das Trainings-Fenster für ein Modell zu definieren, wählen Sie **[!UICONTROL Define training window]** aus, wo Sie mit der Bewertung von Konversionen beginnen möchten.
 
@@ -137,7 +164,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    Folgende Optionen stehen zur Auswahl:
 
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** und
+   * **[!UICONTROL Have Marketing Campaign Analytics select a helpful training window]** und
 
    * **[!UICONTROL Manually input a training window]**. Wenn ausgewählt, definieren Sie die Anzahl der Jahre in **[!UICONTROL Include events the following years prior to a conversion]**.
 
@@ -159,7 +186,14 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
 Im **[!UICONTROL Spend share]** Abschnitt:
 
-* Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**. Diese Einstellung wird insbesondere in den folgenden Szenarien empfohlen:
+* Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**.
+
+  Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert ](./overview.md#full-funnel-modeling):
+
+  * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share for the lower funnel]**.
+  * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share for the upper funnel]**.
+
+* Diese Einstellung wird insbesondere in den folgenden Szenarien empfohlen:
   * Ein Kanal verfügt nicht über genügend Beobachtungen (z. B. niedrige Ausgabenfrequenz, Impressionen oder Klicks).
   * Sie modellieren stark frequente, aber regelmäßige und potenziell teure Medien (wie das Fernsehen für einige Marken), bei denen die Daten spärlich sein können.
 
@@ -168,11 +202,13 @@ Im **[!UICONTROL Spend share]** Abschnitt:
   >Nehmen Sie diese Daten bei einmaligen Investitionen (z. B. einer Super Bowl-Anzeige) als Faktor auf, anstatt sich auf den Ausgabenanteil zu verlassen.
   >
 
+
+
 ### MTA
 
 Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 
 ### Vorkenntnisse
@@ -182,6 +218,10 @@ Im **[!UICONTROL Prior knowledge]** Abschnitt:
 ![Modell - Vorkenntnisse](/help/assets/model-prior-knowledge-step.png)
 
 1. Wählen Sie die **[!UICONTROL Rule type]** aus, die standardmäßig **[!UICONTROL Absolute values]** ist.
+
+1. Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert ](./overview.md#full-funnel-modeling):
+
+   * Wählen Sie entweder **[!UICONTROL Lower funnel]** oder **[!UICONTROL Upper funnel]** aus **[!UICONTROL Select metric]** als funnel-Metrik aus, die Sie für das Vorwissen verwenden möchten.
 
 1. Geben Sie mithilfe der Spalte **[!UICONTROL Contribution proportion]** die Beitragsprozentsätze für jeden der unter **[!UICONTROL Name]** aufgelisteten Kanäle an.
 
@@ -201,6 +241,8 @@ Mit der Konfiguration von Kanal-AdStock können Sie kanalspezifische Nuancen erf
 ![Channel-Werbemittel](/help/assets/channel-ad-stock.png)
 
 So konfigurieren Sie den AdStock-Kanal:
+
+* Wenn Ihr Modell für die [vollständige funnel-Modellierung](./overview.md#full-funnel-modeling) aktiviert ist, wählen Sie **[!UICONTROL Lower funnel]** oder **[!UICONTROL Upper funnel]** aus **[!UICONTROL Select metric]** als funnel-Metrik aus, die für das Kanal-AdStock verwendet werden soll.
 
 * Definieren Sie für jeden Kanal (**[!UICONTROL Name]**) einen **[!UICONTROL Lag (weeks)]**, einen **[!UICONTROL Min Lookback (weeks)]** und einen **[!UICONTROL Max Lookback (weeks)]**. Für jeden Wert:
 
@@ -231,7 +273,7 @@ Planung von Modellbewertung und -training:
 
    * **[!UICONTROL Daily]**: Geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
    * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
-   * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü Ausführen für jedes Dropdown-Menü aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
+   * **[!UICONTROL Monthly]**: Wählen Sie bei jedem Dropdown-Menü einen Tag des Monats aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
 
 1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
 

@@ -1,34 +1,51 @@
 ---
 title: Datensatzregeln
-description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
+description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Marketing Campaign Analytics verwendet werden sollen.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 4%
-
 ---
-
 # Datensatzregeln
 
-Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in Mix Modeler aufgenommen haben.
+{{mm-mca-rebranding}}
+
+Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in Marketing Campaign Analytics aufgenommen haben.
 
 * Für aggregierte Daten, die Sie in Adobe Experience Platform aufgenommen haben, ordnen Sie eines oder mehrere der verfügbaren Datensatzfelder den entsprechenden harmonisierten Feldern zu.
 * Für Ereignisdaten können Sie direkt oder unter Verwendung von Bedingungen ein oder mehrere harmonisierte Felder einzeln Feldern aus dem Datensatz zuordnen.
@@ -37,7 +54,7 @@ Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder 
 
 ## Verwalten von Datensatzregeln
 
-Eine Tabelle der verfügbaren Datensatzregeln finden Sie in der Benutzeroberfläche von Mix Modeler:
+Eine Tabelle der verfügbaren Datensatzregeln finden Sie in der Benutzeroberfläche von Marketing Campaign Analytics:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -69,7 +86,7 @@ Die Tabellenspalten geben Details zu den Datensatzregeln an:
 
 ### Erstellen einer Datensatzregel
 
-Um eine Datensatzregel zu erstellen, wählen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler im **[!UICONTROL Dataset rules configuration]**-Assistenten **[!UICONTROL Create a dataset rule]** aus.
+Um eine Datensatzregel zu erstellen, wählen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics im **[!UICONTROL Dataset rules configuration]**-Assistenten **[!UICONTROL Create a dataset rule]** aus.
 
 Auf dem Bildschirm **[!UICONTROL Create]**
 
@@ -83,31 +100,31 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
    Die Berichterstattung über Daten von Publishern ist für Marketing-Analysten sehr wichtig, da die Arbeit mit Publishern oft erhebliche Ausgaben mit sich bringt und Änderungen an den Berichtsdaten zu sehr unterschiedlichen Einblicken und Investitionsplänen führen können. Darüber hinaus benötigen Marketing-Analysten genaue Daten, um die richtigen Erkenntnisse zu gewinnen und überzeugende Vorschläge zu unterbreiten, um das Vertrauen der Stakeholder zu gewinnen. Diese Herausgeber wie Google und Facebook passen jedoch ihre Berichtsdaten häufig an bzw. löschen sie, während sie ihre Daten miteinander abstimmen. Der Zeitrahmen für die meisten Änderungen liegt innerhalb von 7 Tagen nach der gemeldeten Medienleistung. Weitere Änderungen der Daten sind innerhalb von 30 Tagen möglich. Im Allgemeinen gelten Bücher nach 30 Tagen als geschlossen und die Daten vollständig.
 
-   Mix Modeler unterstützt die Datenanpassung. Um sicherzustellen, dass die Daten, die für das Reporting, die Modellierung und die Planung verwendet werden, korrekt sind. Und dass die Daten in der Lage sind, die Erwartungen und Bedürfnisse der Marken- und Marketing-Analysten zu unterstützen.
+   Marketing Campaign Analytics unterstützt die Datenanpassung. Um sicherzustellen, dass die Daten, die für das Reporting, die Modellierung und die Planung verwendet werden, korrekt sind. Und dass die Daten in der Lage sind, die Erwartungen und Bedürfnisse der Marken- und Marketing-Analysten zu unterstützen.
 
    Sie können neu angepasste Zeilen von Zusammenfassungsdaten als inkrementelle Zeilen in einem Experience Platform-Datensatz senden, und der Harmonisierungs-Service aktualisiert den harmonisierten Datensatz mit diesen neu angepassten Daten. Auf ähnliche Weise können Sie auch Zeilen mit Zusammenfassungsdaten entfernen, die im Harmonisierungsdienst widergespiegelt werden müssen.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Map to harmonized fields]** ein harmonisiertes Feld aus **[!UICONTROL Standard harmonized field]**. Um [&#x200B; neues harmonisiertes Feld schnell &#x200B;](/help/harmonize-data/fields.md#add-a-harmonized-field) erstellen, wählen Sie **[!UICONTROL Create new]** aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL Map to harmonized fields]** ein harmonisiertes Feld aus **[!UICONTROL Standard harmonized field]**. Um [ neues harmonisiertes Feld schnell ](/help/harmonize-data/fields.md#add-a-harmonized-field) erstellen, wählen Sie **[!UICONTROL Create new]** aus.
 
    * Wenn das ausgewählte harmonisierte Feld vom Typ „Metrik“ ist:
 
      1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
 
-     1. Wählen Sie ein **[!UICONTROL *AEP *]**&#x200B;Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
+     1. Wählen Sie ein **[!UICONTROL *AEP *]**Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
 
    * Wenn das ausgewählte Feld vom Typ Dimension ist:
 
      1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
 
-     1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+     1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-     1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+     1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-        1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**&#x200B;ob es **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]**.
+        1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**ob es **[!UICONTROL Exists]**oder **[!UICONTROL Not Exists]**oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**oder **[!UICONTROL Ends With]**einen unter**[!UICONTROL * Eingabewert eingeben *]**.
 
         1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-        1. Um einen Fall oder eine Bedingung zu löschen, wählen ![&#x200B; im &#x200B;](/help/assets/icons/Close.svg) Container die Option „Schließen“ aus.
+        1. Um einen Fall oder eine Bedingung zu löschen, wählen ![ im ](/help/assets/icons/Close.svg) Container die Option „Schließen“ aus.
 
         1. Um festzulegen, ob eine oder alle Bedingungen für einen Fall gelten sollen, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus.
 
@@ -135,7 +152,7 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save as draft]** , um eine E
 
 #### Zusammenfassungsdatensätze
 
-Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Mix Modeler, das entsprechende Experience Platform-Datensatzfeld abzuleiten. Bei Erfolg:
+Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Marketing Campaign Analytics, das entsprechende Experience Platform-Datensatzfeld abzuleiten. Bei Erfolg:
 
 * Wenn das Feld vom Typ „Dimension“ ist, wird **[!UICONTROL Map into]** als **[!UICONTROL Mapping type]** ausgewählt.
 * Wenn das Feld vom Typ „Metrik“ ist, wird **[!UICONTROL Sum]** als **[!UICONTROL Mapping type]** ausgewählt.
@@ -212,15 +229,15 @@ Verwenden Sie für das **[!UICONTROL Factor value]** harmonisierte Feld einen de
 
 ### Bearbeiten einer Datensatzregel
 
-Um eine Datensatzregel zu bearbeiten, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler folgendermaßen vor:
+Um eine Datensatzregel zu bearbeiten, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) in der Spalte **[!UICONTROL Dataset]** für die Datensatzregel aus, die Sie bearbeiten möchten.
-1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus **[!UICONTROL Edit]** um mit der Bearbeitung der Datensatzregel zu beginnen. Weitere Informationen finden [&#x200B; unter „Erstellen &#x200B;](#create-a-dataset-rule) Datensatzregel“.
+1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus **[!UICONTROL Edit]** um mit der Bearbeitung der Datensatzregel zu beginnen. Weitere Informationen finden [ unter „Erstellen ](#create-a-dataset-rule) Datensatzregel“.
 
 
 ### Löschen einer Datensatzregel
 
-Um eine Datensatzregel zu löschen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler folgendermaßen vor:
+Um eine Datensatzregel zu löschen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) in der Spalte **[!UICONTROL Dataset]** für die Datensatzregel aus, die Sie löschen möchten.
 1. Wählen Sie im Kontextmenü die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Datensatzregel zu löschen. Sie werden zur Bestätigung aufgefordert. Wählen Sie **[!UICONTROL Delete]** aus, um die ausgewählte Datensatzregel dauerhaft zu löschen.
@@ -289,7 +306,7 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
    * So fügen Sie metrikbasierte Voreinstellungen hinzu:
 
      1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
-        1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
+        1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**aus.
         1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
         1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
 

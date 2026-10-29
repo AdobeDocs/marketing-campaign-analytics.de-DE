@@ -1,18 +1,18 @@
 ---
 title: Planerkenntnisse
-description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
+description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Marketing Campaign Analytics bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 autotag-review: '2026-04-28T06:09:37.014Z'
-TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
+TQID: 'https://experienceleague.adobe.com/K1G-WhaMSmzx0tJWgy6NrdDj5jQQRDJQjdRle7-ayJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -24,13 +24,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # Planerkenntnisse
 
+{{mm-mca-rebranding}}
 
 [!UICONTROL Plan insights] werden Ihre Planeinblicke erstellt, die die [!UICONTROL Model], die [!UICONTROL Data range] und die [!UICONTROL Plan target] zeigen, auf denen der Plan basiert.
 
@@ -60,7 +61,7 @@ Wenn die Einblicke erstellt werden, erhalten Sie einen Überblick über Ihren Pl
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
@@ -127,14 +128,14 @@ Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.s
    - Unterstützung der Trendanalyse.
    - Identifizieren Sie effektive Strategien und vermeiden Sie Fehler bei der Konfiguration von Plänen.
 
-   Wenn Sie einen historischen Referenzzeitraum auswählen, richten Sie sich nach den Voreinstellungen für frühere Ausgabenmuster aus, und die Planungsfunktion von Mix Modeler kann Pläne generieren, die Ihren Erwartungen entsprechen. Diese Pläne sollten letztendlich das Vertrauen der Stakeholder stärken, sicherstellen, dass Marketing-Pläne strategisch und effizient sind und dass diese Pläne auf bewährten Leistungsdaten und Geschäftsanforderungen basieren.
+   Wenn Sie einen historischen Referenzzeitraum auswählen, richten Sie sich nach den Voreinstellungen für frühere Ausgabenmuster aus, und die Planungsfunktion von Marketing Campaign Analytics kann Pläne generieren, die Ihren Erwartungen entsprechen. Diese Pläne sollten letztendlich das Vertrauen der Stakeholder stärken, sicherstellen, dass Marketing-Pläne strategisch und effizient sind und dass diese Pläne auf bewährten Leistungsdaten und Geschäftsanforderungen basieren.
 
    ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
    1. Wählen Sie die **[!UICONTROL Spend pattern]**.
 
       - Die Standardoption ist **[!UICONTROL Automatic]**.
-      - Wählen Sie **[!UICONTROL Historical reference]** aus und geben Sie einen **[!UICONTROL Start date]** ein, um auf frühere, Mix Modeler bereits verfügbare Marketing-Ausgabendaten zu verweisen. Die **[!UICONTROL End date]** wird automatisch anhand des ausgewählten Datenbereichs bestimmt. Das vorgeschlagene Startdatum ist das erste verfügbare Datum für frühere Marketing-Ausgaben. Um anzugeben, dass Sie einen nicht vorhandenen historischen Referenzzeitraum ausgewählt haben, wird ein ![AlertRed](/help/assets/icons/AlertRed.svg) angezeigt.
+      - Wählen Sie **[!UICONTROL Historical reference]** aus und geben Sie einen **[!UICONTROL Start date]** ein, um auf frühere, Marketing Campaign Analytics bereits verfügbare Marketing-Ausgabendaten zu verweisen. Die **[!UICONTROL End date]** wird automatisch anhand des ausgewählten Datenbereichs bestimmt. Das vorgeschlagene Startdatum ist das erste verfügbare Datum für frühere Marketing-Ausgaben. Um anzugeben, dass Sie einen nicht vorhandenen historischen Referenzzeitraum ausgewählt haben, wird ein ![AlertRed](/help/assets/icons/AlertRed.svg) angezeigt.
 
 
    1. Um die Budgets für jeden Kanal zu ändern, ändern Sie die Werte für **[!UICONTROL Min]** und **[!UICONTROL Max]** oder verwenden Sie die Schieberegler.
@@ -175,7 +176,7 @@ Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.s
 
            1. Im **[!UICONTROL Optimize]** Container
               1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
-              1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select target metric]** eine Zielmetrik aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
+              1. Wählen Sie eine Zielmetrik aus dem Dropdown-Menü **[!UICONTROL Select target metric]** aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
               1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
            1. Geben Sie einen Datumsbereich an, indem Sie entweder Daten eingeben oder einen Datumsbereich mithilfe von ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
            1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Conversion]**, ein Prozentsatz für **[!UICONTROL ROI]** oder Währungswerte für **[!UICONTROL CPA]** und **[!UICONTROL Revenue]**.
@@ -193,10 +194,10 @@ Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.s
 
    - Ihr Planname , Modell, Datumsbereich und Gesamtbudget sind zusammengefasst.
 
-   - Standardmäßig berechnet Mix Modeler den durchschnittlichen Umsatz pro Konversion automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Average Revenue per conversion]** können Sie den spezifischen durchschnittlichen Umsatz pro Konversion definieren.
+   - Standardmäßig berechnet Marketing Campaign Analytics den durchschnittlichen Umsatz pro Konversion automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Average Revenue per conversion]** können Sie den spezifischen durchschnittlichen Umsatz pro Konversion definieren.
 
    1. Für jeden Datumsbereich in Ihrem Budget:
-      1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
+      1. Wählen Sie einen Datumsbereich aus dem Dropdown-Menü **[!UICONTROL Date range]** aus.
       1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
    1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) Benutzerdefinierten durchschnittlichen Umsatz pro Konversionseinheit hinzufügen , um einen Datumsbereich hinzuzufügen.
    1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
@@ -206,12 +207,12 @@ Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.s
    >Wenn Ihr Modell keine historischen Umsatzdaten enthält, müssen Sie für jeden Datumsbereich, den Sie für Ihr Budget angegeben haben, einen durchschnittlichen Umsatz pro Konversion definieren.
    >
 
-   - Standardmäßig berechnet Mix Modeler die Kanalkosten automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Channel costs]** können Sie benutzerdefinierte Kanalkosten definieren.
+   - Standardmäßig berechnet Marketing Campaign Analytics die Kanalkosten automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Channel costs]** können Sie benutzerdefinierte Kanalkosten definieren.
 
    1. Definieren Sie für jeden Kanal in Ihrem Modell benutzerdefinierte Kanalkosten.
       1. Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus.
       1. Für jeden Datumsbereich in Ihrem Budget:
-         1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
+         1. Wählen Sie einen Datumsbereich aus dem Dropdown-Menü **[!UICONTROL Date range]** aus.
          1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
       1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom average revenue per conversion unit]** aus, um einen Datumsbereich hinzuzufügen.
       1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.

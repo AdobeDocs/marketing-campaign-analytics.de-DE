@@ -1,37 +1,45 @@
 ---
 title: Schemata
-description: Erfahren Sie, wie Sie die Schemata verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
+description: Erfahren Sie, wie Sie die Schemata verwalten, die zur Aufnahme von Daten in Marketing Campaign Analytics erforderlich sind.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T08:56:54.552Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '618'
 ht-degree: 7%
-
 ---
-
 # Schemata
 
-So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experience Platform aufnehmen und in Mix Modeler verwenden möchten:
+{{mm-mca-rebranding}}
 
-1. Wechseln Sie zur Mix Modeler-Benutzeroberfläche.
+So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experience Platform aufnehmen und in Marketing Campaign Analytics verwenden möchten:
+
+1. Wechseln Sie zur Marketing Campaign Analytics-Benutzeroberfläche.
 
 1. Wählen Sie ![Schemata](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
-Weitere Informationen dazu finden [&#x200B; in der Übersicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) Schemas-Benutzeroberfläche .
+Weitere Informationen dazu finden [ in der Übersicht ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) Schemas-Benutzeroberfläche .
 
 ## Aggregierte oder zusammenfassende Daten
 
-Es wird dringend empfohlen, die Klasse XDM Summary Metrics als Grundlage für das Schema zu verwenden, das allen Aggregat- oder Zusammenfassungsdaten zugrunde liegt, die Sie in Experience Platform aufnehmen und in Mix Modeler verwenden möchten.
+Es wird dringend empfohlen, die Klasse XDM Summary Metrics als Grundlage für das Schema zu verwenden, das allen Aggregat- oder Zusammenfassungsdaten zugrunde liegt, die Sie in Experience Platform aufnehmen und in Marketing Campaign Analytics verwenden möchten.
 
 Verwenden Sie die Klasse XDM Summary Metrics für:
 
@@ -97,7 +105,7 @@ Ein Zusammenfassungs-, interner Faktor- oder externer Faktor-Datensatz kann auf 
 
 ## Unterstützte Datentypen
 
-Derzeit unterstützt Mix Modeler eine Untergruppe von Experience Platform-Datentypen nicht. Die folgenden grundlegenden Datentypen (Felder), die unter [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#data-type) erwähnt werden, werden unterstützt:
+Derzeit unterstützt Marketing Campaign Analytics eine Untergruppe von Experience Platform-Datentypen nicht. Die folgenden grundlegenden Datentypen (Felder), die unter [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) erwähnt werden, werden unterstützt:
 
 - Zeichenfolge
 - Ganzzahl

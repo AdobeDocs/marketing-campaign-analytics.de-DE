@@ -1,28 +1,34 @@
 ---
 title: Konversionen
-description: Erfahren Sie, wie Sie Konversionen erstellen, um Ihre Daten in Mix Modeler zu harmonisieren.
+description: Erfahren Sie, wie Sie Konversionen erstellen, um Ihre Daten in Marketing Campaign Analytics zu harmonisieren.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+autotag-review: '2026-05-01T09:15:50.061Z'
+TQID: 'https://experienceleague.adobe.com/5m8Z9cc9d42019sNXkstXDn6cOo-2yzzQWCw0VG1YrY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:15:50.061Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 2%
-
+source-wordcount: '454'
+ht-degree: 9%
 ---
-
 # Konversionen {#conversions}
 
+{{mm-mca-rebranding}}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
@@ -36,7 +42,7 @@ Marketing-Konversionen werden für die Attributionsanalyse definiert.
 
 ## Konversionen verwalten
 
-Um eine Tabelle der verfügbaren Konvertierungen anzuzeigen, gehen Sie in der Benutzeroberfläche von Mix Modeler folgendermaßen vor:
+Um eine Tabelle der verfügbaren Konvertierungen anzuzeigen, gehen Sie in der Benutzeroberfläche von Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -48,15 +54,15 @@ Die Tabellenspalten geben Details zur Konversion an:
 | --- | ---|
 | Name | Der Name der Konversion. |
 | Umsatz | Die harmonisierte Datenmetrik, die zur Berechnung des Umsatzes aus einer Konversion verwendet wird. |
-| Konversionsmetrik | Die harmonisierte Datenmetrik, die als Konversionsmetrik für die Analyse verwendet werden soll. |
-| Kategorie | Die Konvertierungskategorie der Konversion. |
+| Konversionsmetrik | Die harmonisierte Datenmetrik, die als Konversionsmetrik für die Analyse verwendet werden soll. Dies bezeichnet primäre numerische Geschäftsergebnisse, z. B.: Bestellungen, Umsatz, Anzahl der Abonnements und mehr. |
+| Kategorie | Die anzuwendende Konversionsregel, bei der eine Konversionsdimension verwendet wird, um den Konversionstyp zu klassifizieren. |
 | Erstellt | Datum und Uhrzeit der Erstellung der Konversion. |
 | Zuletzt geändert | Datum und Uhrzeit der letzten Änderung der Konvertierung. |
 
 
 ## Konversion hinzufügen
 
-Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** in Mix Modeler folgendermaßen vor:
+Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** in Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]** aus.
 
@@ -66,11 +72,11 @@ Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/ic
 
    1. Definieren Sie die **[!UICONTROL Conversion category]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**&#x200B;aus, z. B. `Conversion types`.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**aus, z. B. `Conversion types`.
 
       1. Wählen Sie einen Wert für den Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Conversion metric for analysis]** aus, z. B. **[!UICONTROL Orders]**.
 
@@ -89,7 +95,7 @@ So zeigen Sie Details zu einer Konversion an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
 
-1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [&#x200B; Sie unter &#x200B;](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [ Sie unter ](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 ## Bericht anzeigen
 

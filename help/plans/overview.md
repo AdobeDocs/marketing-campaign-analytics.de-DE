@@ -1,33 +1,45 @@
 ---
 title: Pläne - Übersicht
-description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
+description: Erfahren Sie, wie Sie Pläne in Marketing Campaign Analytics anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '683'
 ht-degree: 0%
-
 ---
-
 # Pläne - Übersicht
 
-Mit Plänen in Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
+{{mm-mca-rebranding}}
+
+Mit Plänen in Marketing Campaign Analytics können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
 
 Ein Plan beschreibt die diskretionären Investitionen (z. B. Budgets), die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte ausgeben möchte. Diese Investitionen dienen allgemeinen KPIs (z. B. Bestellungen, Umsatz). Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
 
@@ -48,12 +60,12 @@ Wenn ein Modell, das Sie für Ihren Plan verwendet haben, mit neuen Daten bewert
 
 ## Pläne erstellen
 
-Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [&#x200B; finden Sie &#x200B;](build.md)Erstellen von Plänen“.
+Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Marketing Campaign Analytics-Plans. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
 
 
 ## Pläne verwalten
 
-So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von Mix Modeler an:
+So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von Marketing Campaign Analytics an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** aus.
 
@@ -68,13 +80,13 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
    | **[!UICONTROL Date range]** | Der vollständige Datumsbereich für einen Plan. |
    | **[!UICONTROL Budget]** | Das Gesamtbudget für einen Plan. |
    | **[!UICONTROL Plan target]** | Die Zielmetrik , die für einen zielbasierten Plan definiert ist. |
-   | **[!UICONTROL Forecasted return]** | Die [prognostizierte &#x200B;](/help/main-guide/glossary.md)) für einen Plan |
+   | **[!UICONTROL Forecasted return]** | Die [prognostizierte ](/help/main-guide/glossary.md)) für einen Plan |
    | **[!UICONTROL Forecasted ROI]** | Der [prognostizierte ROI](/help/main-guide/glossary.md) für einen Plan. |
    | **[!UICONTROL Forecasted conversion]** | Die [prognostizierte Konversion](/help/main-guide/glossary.md) für einen Plan |
    | **[!UICONTROL Forecasted CPA]** | Die [prognostizierte CPA](/help/main-guide/glossary.md) für einen Plan |
    | **[!UICONTROL Status]** | Der Status eines Plans:<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**,<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]** oder<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**. |
 
-   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![&#x200B; Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
+   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![ Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
 
    Um die Tabelle in einer beliebigen Spalte in aufsteigender ![](/help/assets/icons2/ArrowMoveUp.svg) ArrowMoveUp) oder absteigender Reihenfolge ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg) zu sortieren, klicken Sie auf den Titel der Spalte.
 
@@ -90,7 +102,7 @@ So zeigen Sie die Einblicke eines Plans an und bearbeiten ihn:
 
 1. Wählen Sie den Plannamen.
 
-Sie werden zu &quot;[-Einblicke“ &#x200B;](insights.md).
+Sie werden zu &quot;[-Einblicke“ ](insights.md).
 
 
 ### Duplizieren eines Plans
@@ -100,15 +112,15 @@ Duplizieren eines Plans:
 - Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 - Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)] (_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
+Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)](_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
 
 - Details (wie Beschreibung, Budget und mehr) aus dem ursprünglichen Plan werden kopiert.
 - Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
 - Sie haben die Möglichkeit, ein anderes Modell als Basis für den kopierten Plan auszuwählen.
-   - Für Touchpoints oder Kanäle, die im kopierten Plan vorhanden sind, aber im neu ausgewählten Modell nicht vorhanden sind, werden alle Einschränkungen für diese Touchpoints oder Kanäle aus dem Plan entfernt.
-   - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf Folgendes festgelegt:
-      - einen Mindestwert von `0`,
-      - einen Höchstwert in Übereinstimmung mit dem Budget für den Flugbereich.
+  - Für Touchpoints oder Kanäle, die im kopierten Plan vorhanden sind, aber im neu ausgewählten Modell nicht vorhanden sind, werden alle Einschränkungen für diese Touchpoints oder Kanäle aus dem Plan entfernt.
+  - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf Folgendes festgelegt:
+    - einen Mindestwert von `0`,
+    - einen Höchstwert in Übereinstimmung mit dem Budget für den Flugbereich.
 
 
 
@@ -117,7 +129,7 @@ Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursp
 Pläne vergleichen:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Wählen ![&#x200B; in &#x200B;](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
+1. Wählen ![ in ](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
 
 
 ### Pläne löschen
@@ -131,6 +143,6 @@ So löschen Sie mehrere Pläne:
 
 1. Mehrere Pläne auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Pläne zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**&#x200B;aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
 
 
