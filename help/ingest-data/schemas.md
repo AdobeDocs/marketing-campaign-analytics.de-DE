@@ -35,7 +35,7 @@ So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experie
 
 1. Wählen Sie ![Schemata](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
-Weitere Informationen dazu finden [ in der Übersicht ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) Schemas-Benutzeroberfläche .
+Weitere Informationen dazu finden [&#x200B; in der Übersicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) Schemas-Benutzeroberfläche .
 
 ## Aggregierte oder zusammenfassende Daten
 
