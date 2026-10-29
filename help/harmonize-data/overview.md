@@ -1,15 +1,20 @@
 ---
 title: Datensätze harmonisieren - Übersicht
-description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
+description: Erfahren Sie, wie Sie Daten in Marketing Campaign Analytics harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+autotag-review: '2026-05-01T09:10:10.340Z'
+TQID: 'https://experienceleague.adobe.com/QFpx2-PjU-GBiyocCsL-myjLoETUJGOikkLcdaGDlGk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
     internal-label: Conversions
@@ -29,20 +34,21 @@ role_v2:
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality
-autotag-review: '2026-05-01T09:10:10.340Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1389'
 ht-degree: 17%
 ---
 # Datensätze harmonisieren - Übersicht
 
-Die Daten in Mix Modeler sind je nach Datenquelle unterschiedlich. Die Daten können wie folgt sein:
+{{mm-mca-rebranding}}
+
+Die Daten in Marketing Campaign Analytics sind je nach Datenquelle unterschiedlich. Die Daten können wie folgt sein:
 
 * aggregierte oder zusammengefasste Daten, z. B. Daten aus Datenquellen von Walled Garden oder Offline-Werbedaten (wie Ausgaben), die bei der Ausführung einer Reklametafel, eines Ereignisses oder einer physischen Werbekampagne gesammelt wurden,
 * Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Bei diesen Ereignisdaten kann es sich um Daten handeln, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über die Experience Platform Web- oder Mobile-SDK- oder Edge Network-API erfasst werden, oder um Daten, die über Quell-Connectoren aufgenommen werden.
 
-Der Harmonisierungsdienst von Mix Modeler nimmt die Aggregat- und Ereignisdaten in eine konsistente Datenansicht auf. Diese Datenansicht ist die Quelle für die Modelle in Mix Modeler. Der Service verwendet die höchste Granularität über die verschiedenen Datensätze hinweg. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen Datensätzen hat und die übrigen Datensätze eine wöchentliche und tägliche Granularität haben, erstellt der Harmonisierungs-Service eine Datenansicht mit monatlicher Granularität.
+Der Harmonisierungsdienst von Marketing Campaign Analytics nimmt die Aggregat- und Ereignisdaten in eine konsistente Datenansicht auf. Diese Datenansicht ist die Quelle für die Modelle in Marketing Campaign Analytics. Der Service verwendet die höchste Granularität über die verschiedenen Datensätze hinweg. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen Datensätzen hat und die übrigen Datensätze eine wöchentliche und tägliche Granularität haben, erstellt der Harmonisierungs-Service eine Datenansicht mit monatlicher Granularität.
 
 ## Faktoren
 
@@ -52,7 +58,7 @@ Faktoren sind für die Modellerstellung von entscheidender Bedeutung, und Sie m�
 
 * Externe Faktoren sind Faktoren, die sich der Kontrolle Ihres Unternehmens entziehen, die sich jedoch weiterhin auf die von Ihnen erzielten Konversionen auswirken können. Beispiele sind CPI, S&amp;P 500 und mehr.
 
-Die Factors-Funktion in Mix Modeler verwendet einen harmonisierten Faktoren-Workflow. Dieser Workflow vereinfacht die Verwaltung von Faktoren, sorgt für Konsistenz über Modelle hinweg und bietet ein intuitives Erlebnis.
+Die Factors-Funktion in Marketing Campaign Analytics verwendet einen harmonisierten Faktoren-Workflow. Dieser Workflow vereinfacht die Verwaltung von Faktoren, sorgt für Konsistenz über Modelle hinweg und bietet ein intuitives Erlebnis.
 
 Im Rahmen des Workflows Harmonisierte Faktoren gilt Folgendes:
 
@@ -71,7 +77,7 @@ Wenn Sie ein Modell duplizieren, das den Workflow Datensatzbasierte Faktoren ver
 
 ## Beispiel für harmonisierte Daten
 
-Angenommen, Sie haben die folgenden Datensätze für Mix Modeler verfügbar.
+Angenommen, Sie haben die folgenden Datensätze für Marketing Campaign Analytics verfügbar.
 
 **Datensatz 1**
 
@@ -164,7 +170,7 @@ Um einen harmonisierten Datensatz zu erstellen, wie im vereinfachten [Beispiel](
 
 ## Anzeigen harmonisierter Daten
 
-So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Mix Modeler an:
+So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Marketing Campaign Analytics an:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized datasets]** in der linken Leiste aus.
 

@@ -1,33 +1,45 @@
 ---
 title: Pläne - Übersicht
-description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
+description: Erfahren Sie, wie Sie Pläne in Marketing Campaign Analytics anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '683'
 ht-degree: 0%
-
 ---
-
 # Pläne - Übersicht
 
-Mit Plänen in Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
+{{mm-mca-rebranding}}
+
+Mit Plänen in Marketing Campaign Analytics können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
 
 Ein Plan beschreibt die diskretionären Investitionen (z. B. Budgets), die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte ausgeben möchte. Diese Investitionen dienen allgemeinen KPIs (z. B. Bestellungen, Umsatz). Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
 
@@ -48,12 +60,12 @@ Wenn ein Modell, das Sie für Ihren Plan verwendet haben, mit neuen Daten bewert
 
 ## Pläne erstellen
 
-Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [&#x200B; finden Sie &#x200B;](build.md)Erstellen von Plänen“.
+Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Marketing Campaign Analytics-Plans. Weitere [&#x200B; finden Sie &#x200B;](build.md)Erstellen von Plänen“.
 
 
 ## Pläne verwalten
 
-So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von Mix Modeler an:
+So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von Marketing Campaign Analytics an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** aus.
 
@@ -105,10 +117,10 @@ Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursp
 - Details (wie Beschreibung, Budget und mehr) aus dem ursprünglichen Plan werden kopiert.
 - Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
 - Sie haben die Möglichkeit, ein anderes Modell als Basis für den kopierten Plan auszuwählen.
-   - Für Touchpoints oder Kanäle, die im kopierten Plan vorhanden sind, aber im neu ausgewählten Modell nicht vorhanden sind, werden alle Einschränkungen für diese Touchpoints oder Kanäle aus dem Plan entfernt.
-   - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf Folgendes festgelegt:
-      - einen Mindestwert von `0`,
-      - einen Höchstwert in Übereinstimmung mit dem Budget für den Flugbereich.
+  - Für Touchpoints oder Kanäle, die im kopierten Plan vorhanden sind, aber im neu ausgewählten Modell nicht vorhanden sind, werden alle Einschränkungen für diese Touchpoints oder Kanäle aus dem Plan entfernt.
+  - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf Folgendes festgelegt:
+    - einen Mindestwert von `0`,
+    - einen Höchstwert in Übereinstimmung mit dem Budget für den Flugbereich.
 
 
 

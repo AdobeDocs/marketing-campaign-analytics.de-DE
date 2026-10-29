@@ -1,34 +1,51 @@
 ---
 title: Datensatzregeln
-description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
+description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Marketing Campaign Analytics verwendet werden sollen.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 4%
-
 ---
-
 # Datensatzregeln
 
-Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in Mix Modeler aufgenommen haben.
+{{mm-mca-rebranding}}
+
+Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in Marketing Campaign Analytics aufgenommen haben.
 
 * Für aggregierte Daten, die Sie in Adobe Experience Platform aufgenommen haben, ordnen Sie eines oder mehrere der verfügbaren Datensatzfelder den entsprechenden harmonisierten Feldern zu.
 * Für Ereignisdaten können Sie direkt oder unter Verwendung von Bedingungen ein oder mehrere harmonisierte Felder einzeln Feldern aus dem Datensatz zuordnen.
@@ -37,7 +54,7 @@ Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder 
 
 ## Verwalten von Datensatzregeln
 
-Eine Tabelle der verfügbaren Datensatzregeln finden Sie in der Benutzeroberfläche von Mix Modeler:
+Eine Tabelle der verfügbaren Datensatzregeln finden Sie in der Benutzeroberfläche von Marketing Campaign Analytics:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -69,7 +86,7 @@ Die Tabellenspalten geben Details zu den Datensatzregeln an:
 
 ### Erstellen einer Datensatzregel
 
-Um eine Datensatzregel zu erstellen, wählen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler im **[!UICONTROL Dataset rules configuration]**-Assistenten **[!UICONTROL Create a dataset rule]** aus.
+Um eine Datensatzregel zu erstellen, wählen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics im **[!UICONTROL Dataset rules configuration]**-Assistenten **[!UICONTROL Create a dataset rule]** aus.
 
 Auf dem Bildschirm **[!UICONTROL Create]**
 
@@ -83,7 +100,7 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
    Die Berichterstattung über Daten von Publishern ist für Marketing-Analysten sehr wichtig, da die Arbeit mit Publishern oft erhebliche Ausgaben mit sich bringt und Änderungen an den Berichtsdaten zu sehr unterschiedlichen Einblicken und Investitionsplänen führen können. Darüber hinaus benötigen Marketing-Analysten genaue Daten, um die richtigen Erkenntnisse zu gewinnen und überzeugende Vorschläge zu unterbreiten, um das Vertrauen der Stakeholder zu gewinnen. Diese Herausgeber wie Google und Facebook passen jedoch ihre Berichtsdaten häufig an bzw. löschen sie, während sie ihre Daten miteinander abstimmen. Der Zeitrahmen für die meisten Änderungen liegt innerhalb von 7 Tagen nach der gemeldeten Medienleistung. Weitere Änderungen der Daten sind innerhalb von 30 Tagen möglich. Im Allgemeinen gelten Bücher nach 30 Tagen als geschlossen und die Daten vollständig.
 
-   Mix Modeler unterstützt die Datenanpassung. Um sicherzustellen, dass die Daten, die für das Reporting, die Modellierung und die Planung verwendet werden, korrekt sind. Und dass die Daten in der Lage sind, die Erwartungen und Bedürfnisse der Marken- und Marketing-Analysten zu unterstützen.
+   Marketing Campaign Analytics unterstützt die Datenanpassung. Um sicherzustellen, dass die Daten, die für das Reporting, die Modellierung und die Planung verwendet werden, korrekt sind. Und dass die Daten in der Lage sind, die Erwartungen und Bedürfnisse der Marken- und Marketing-Analysten zu unterstützen.
 
    Sie können neu angepasste Zeilen von Zusammenfassungsdaten als inkrementelle Zeilen in einem Experience Platform-Datensatz senden, und der Harmonisierungs-Service aktualisiert den harmonisierten Datensatz mit diesen neu angepassten Daten. Auf ähnliche Weise können Sie auch Zeilen mit Zusammenfassungsdaten entfernen, die im Harmonisierungsdienst widergespiegelt werden müssen.
 
@@ -135,7 +152,7 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save as draft]** , um eine E
 
 #### Zusammenfassungsdatensätze
 
-Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Mix Modeler, das entsprechende Experience Platform-Datensatzfeld abzuleiten. Bei Erfolg:
+Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Marketing Campaign Analytics, das entsprechende Experience Platform-Datensatzfeld abzuleiten. Bei Erfolg:
 
 * Wenn das Feld vom Typ „Dimension“ ist, wird **[!UICONTROL Map into]** als **[!UICONTROL Mapping type]** ausgewählt.
 * Wenn das Feld vom Typ „Metrik“ ist, wird **[!UICONTROL Sum]** als **[!UICONTROL Mapping type]** ausgewählt.
@@ -212,7 +229,7 @@ Verwenden Sie für das **[!UICONTROL Factor value]** harmonisierte Feld einen de
 
 ### Bearbeiten einer Datensatzregel
 
-Um eine Datensatzregel zu bearbeiten, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler folgendermaßen vor:
+Um eine Datensatzregel zu bearbeiten, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) in der Spalte **[!UICONTROL Dataset]** für die Datensatzregel aus, die Sie bearbeiten möchten.
 1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus **[!UICONTROL Edit]** um mit der Bearbeitung der Datensatzregel zu beginnen. Weitere Informationen finden [&#x200B; unter „Erstellen &#x200B;](#create-a-dataset-rule) Datensatzregel“.
@@ -220,7 +237,7 @@ Um eine Datensatzregel zu bearbeiten, gehen Sie in der Benutzeroberfläche ![Dat
 
 ### Löschen einer Datensatzregel
 
-Um eine Datensatzregel zu löschen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler folgendermaßen vor:
+Um eine Datensatzregel zu löschen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) in der Spalte **[!UICONTROL Dataset]** für die Datensatzregel aus, die Sie löschen möchten.
 1. Wählen Sie im Kontextmenü die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Datensatzregel zu löschen. Sie werden zur Bestätigung aufgefordert. Wählen Sie **[!UICONTROL Delete]** aus, um die ausgewählte Datensatzregel dauerhaft zu löschen.

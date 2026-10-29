@@ -1,13 +1,13 @@
 ---
 title: Zu planende Leistung
-description: Erfahren Sie, wie Sie in Mix Modeler die Übersicht zur Leistungsplanung verwenden.
+description: Erfahren Sie, wie Sie in Marketing Campaign Analytics die Übersicht zur Leistungsplanung verwenden.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 autotag-review: '2026-05-01T09:20:18.412Z'
-TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
+TQID: 'https://experienceleague.adobe.com/wz2IEd-oBB8N-BSAdXMkcz9xS0xn7l4FlRJoBaQcCAw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
@@ -29,24 +29,33 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '544'
 ht-degree: 0%
 ---
 # Zu planende Leistung
 
+{{mm-mca-rebranding}}
+
 >[!NOTE]
 >
->Die Registerkarte **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Beta-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
+>Die Registerkarte **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} in Marketing Campaign Analytics ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Beta-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
 
-Die Registerkarte **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** bietet ein Tracking-Dashboard, mit dem überwacht werden kann, wie gut Ihr Marketing im Vergleich zum Plan abschneidet. Sie können die tatsächliche Leistung im Vergleich zur geplanten Leistung anhand von Statuskarten und Visualisierungen verfolgen.
+Die Registerkarte **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Marketing Campaign Analytics ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** bietet ein Tracking-Dashboard, mit dem überwacht werden kann, wie gut Ihr Marketing im Vergleich zum Plan abschneidet. Sie können die tatsächliche Leistung im Vergleich zur geplanten Leistung anhand von Statuskarten und Visualisierungen verfolgen.
 
 Das Dashboard hilft Ihnen, Lücken zu identifizieren, Risiken oder Chancen zu erkennen und rechtzeitig Anpassungen an Ihren Plänen und Budgets vorzunehmen.
 
 So wählen Sie aus, welche Daten für die KPI-Statuskarten und Visualisierungen angezeigt werden:
 
-* Wählen Sie im Dropdown-Menü **[!UICONTROL Plan name]** einen Plan aus und verwenden Sie **[!UICONTROL _Option auswählen…_]**.
+* Wählen Sie einen Plan aus dem Dropdown-Menü **[!UICONTROL Plan name]** aus und verwenden Sie **[!UICONTROL _Option auswählen…_]**.
 
 * Geben Sie einen Datumsbereich an. Um den Datumsbereich zu ändern, geben Sie das Start- und Enddatum manuell ein oder wählen Sie mithilfe von ![Kalender“ einen &#x200B;](/help/assets/icons/Calendar.svg) aus.
 

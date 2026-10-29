@@ -1,30 +1,34 @@
 ---
 title: Pläne erstellen
-description: Erfahren Sie, wie Sie in Mix Modeler Pläne erstellen.
+description: Erfahren Sie, wie Sie in Marketing Campaign Analytics Pläne erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
 TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '983'
 ht-degree: 1%
-
 ---
-
 # Pläne erstellen
 
-In Mix Modeler erstellen Sie einen Plan mit dem Planassistenten. Im Planassistenten können Sie die Details und Budgets oder Zielmetriken Ihres Plans und das zugrunde liegende Modell einrichten, das für Ihren Plan verwendet werden soll. Nachdem Sie Details, Budget, Zielmetriken und Modell angegeben haben, können Sie mit einem von KI empfohlenen Plan fortfahren oder die Ausgaben nach Kanal bearbeiten. Sie haben die Möglichkeit, erweiterte Konfigurationen für den durchschnittlichen Umsatz pro Konversions- und Kanalkosten zu definieren.
+{{mm-mca-rebranding}}
+
+In Marketing Campaign Analytics erstellen Sie einen Plan mit dem Planassistenten. Im Planassistenten können Sie die Details und Budgets oder Zielmetriken Ihres Plans und das zugrunde liegende Modell einrichten, das für Ihren Plan verwendet werden soll. Nachdem Sie Details, Budget, Zielmetriken und Modell angegeben haben, können Sie mit einem von KI empfohlenen Plan fortfahren oder die Ausgaben nach Kanal bearbeiten. Sie haben die Möglichkeit, erweiterte Konfigurationen für den durchschnittlichen Umsatz pro Konversions- und Kanalkosten zu definieren.
 
 Sie müssen das Ziel definieren, für das Sie Ihren Plan maximieren möchten. Dieses Ziel kann entweder ein Budget sein, das Sie ausgeben können, oder ein Ziel, das Sie erreichen möchten. Wenn das Ziel eine Zielgruppe ist, müssen Sie außerdem Werte für die zu verwendende Zielmetrik angeben: Konversion, Umsatz, CPA oder ROI.
 
-Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileChart.svg)-**[!UICONTROL Plans]** in Mix Modeler **[!UICONTROL Create plan]** aus.
+Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileChart.svg)-**[!UICONTROL Plans]** in Marketing Campaign Analytics **[!UICONTROL Create plan]** aus.
 
 
 1. Im **[!UICONTROL Plan creation]**:
@@ -44,33 +48,33 @@ Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileCh
 
         Mit dieser Option können Sie Budgets für einen oder mehrere Datumsbereiche eingeben.
 
-         1. Im **[!UICONTROL Optimize]** Container:
-            1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
-            1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
-         1. Geben Sie einen **[!UICONTROL Date range]** an, entweder durch Eingabe von Datumsangaben oder Auswahl eines Datumsbereichs mithilfe von ![Kalender](/help/assets/icons/Calendar.svg).
-         1. Geben Sie einen **[!UICONTROL Budget]** ein.
-Um zusätzliche Datumsbereiche mit jeweils ihrem Budget hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg).
-         1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
-            1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
-            1. Geben Sie den Betrag des maximalen Budgets an. Der Betrag sollte gleich oder höher als der Gesamtbetrag der für die Datumsbereiche angegebenen Budgets sein.
+        1. Im **[!UICONTROL Optimize]** Container:
+           1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
+           1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
+        1. Geben Sie einen **[!UICONTROL Date range]** an, entweder durch Eingabe von Datumsangaben oder Auswahl eines Datumsbereichs mithilfe von ![Kalender](/help/assets/icons/Calendar.svg).
+        1. Geben Sie einen **[!UICONTROL Budget]** ein.
+           Um zusätzliche Datumsbereiche mit jeweils ihrem Budget hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+           Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg).
+        1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
+           1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
+           1. Geben Sie den Betrag des maximalen Budgets an. Der Betrag sollte gleich oder höher als der Gesamtbetrag der für die Datumsbereiche angegebenen Budgets sein.
 
 
       * **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
         ![Planziel](../assets/plan-target.png)
 
-         1. Im **[!UICONTROL Optimize]** Container
-            1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
-            1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select target metric]** eine Zielmetrik aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
-            1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
-         1. Geben Sie einen Datumsbereich an, indem Sie entweder Daten eingeben oder einen Datumsbereich mithilfe von ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
-         1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Total Conversions]**, ein Prozentsatz für **[!UICONTROL Paid Marketing ROI]** oder Währungswerte für **[!UICONTROL Paid Marketing CPA]** und **[!UICONTROL Total Revenue]**.
-Um zusätzliche Datumsbereiche mit jeweils ihrer Zielmetrik hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** aus.
-Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
-         1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
-            1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
-            1. Geben Sie den Betrag des maximalen Budgets an.
+        1. Im **[!UICONTROL Optimize]** Container
+           1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
+           1. Wählen Sie eine Zielmetrik aus dem Dropdown-Menü **[!UICONTROL Select target metric]** aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
+           1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
+        1. Geben Sie einen Datumsbereich an, indem Sie entweder Daten eingeben oder einen Datumsbereich mithilfe von ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
+        1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Total Conversions]**, ein Prozentsatz für **[!UICONTROL Paid Marketing ROI]** oder Währungswerte für **[!UICONTROL Paid Marketing CPA]** und **[!UICONTROL Total Revenue]**.
+           Um zusätzliche Datumsbereiche mit jeweils ihrer Zielmetrik hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** aus.
+           Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
+        1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
+           1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
+           1. Geben Sie den Betrag des maximalen Budgets an.
 
 
    1. Wählen Sie **[!UICONTROL Next]** aus.
@@ -101,14 +105,14 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
    * Unterstützung der Trendanalyse.
    * Identifizieren Sie effektive Strategien und vermeiden Sie Fehler bei der Konfiguration von Plänen.
 
-   Wenn Sie einen historischen Referenzzeitraum auswählen, richten Sie sich nach den Voreinstellungen für frühere Ausgabenmuster aus, und die Planungsfunktion von Mix Modeler kann Pläne generieren, die Ihren Erwartungen entsprechen. Diese Pläne sollten letztendlich das Vertrauen der Stakeholder stärken, sicherstellen, dass Marketing-Pläne strategisch und effizient sind und dass diese Pläne auf bewährten Leistungsdaten und Geschäftsanforderungen basieren.
+   Wenn Sie einen historischen Referenzzeitraum auswählen, richten Sie sich nach den Voreinstellungen für frühere Ausgabenmuster aus, und die Planungsfunktion von Marketing Campaign Analytics kann Pläne generieren, die Ihren Erwartungen entsprechen. Diese Pläne sollten letztendlich das Vertrauen der Stakeholder stärken, sicherstellen, dass Marketing-Pläne strategisch und effizient sind und dass diese Pläne auf bewährten Leistungsdaten und Geschäftsanforderungen basieren.
 
    ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
    1. Wählen Sie die **[!UICONTROL Spend pattern]**.
 
       * Die Standardoption ist **[!UICONTROL Automatic]**.
-      * Wählen Sie **[!UICONTROL Historical reference]** aus und geben Sie einen **[!UICONTROL Start date]** ein, um auf frühere, Mix Modeler bereits verfügbare Marketing-Ausgabendaten zu verweisen. Der **[!UICONTROL End date]** wird automatisch anhand des Datumsbereichs bestimmt, für den Sie das Ausgabenmuster definieren. Das vorgeschlagene Startdatum ist das erste verfügbare Datum für Marketingausgaben, das nach diesem Datum liegt. Um anzuzeigen, dass Sie einen nicht vorhandenen oder ungültigen historischen Referenzzeitraum ausgewählt haben, wird ein ![AlertRed](/help/assets/icons/AlertRed.svg) angezeigt.
+      * Wählen Sie **[!UICONTROL Historical reference]** aus und geben Sie einen **[!UICONTROL Start date]** ein, um auf frühere, Marketing Campaign Analytics bereits verfügbare Marketing-Ausgabendaten zu verweisen. Der **[!UICONTROL End date]** wird automatisch anhand des Datumsbereichs bestimmt, für den Sie das Ausgabenmuster definieren. Das vorgeschlagene Startdatum ist das erste verfügbare Datum für Marketingausgaben, das nach diesem Datum liegt. Um anzuzeigen, dass Sie einen nicht vorhandenen oder ungültigen historischen Referenzzeitraum ausgewählt haben, wird ein ![AlertRed](/help/assets/icons/AlertRed.svg) angezeigt.
 
    1. Um Budgets für jeden Kanal zu definieren, geben Sie einen Wert für **[!UICONTROL Min]** und **[!UICONTROL Max]** ein oder verwenden Sie die Schieberegler.
 
@@ -127,34 +131,34 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
 
    * Ihr Planname , Modell, Datumsbereich und Gesamtbudget sind zusammengefasst.
 
-   * Standardmäßig berechnet Mix Modeler den durchschnittlichen Umsatz pro Konversion automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Average Revenue per conversion]** können Sie den spezifischen durchschnittlichen Umsatz pro Konversion definieren.
+   * Standardmäßig berechnet Marketing Campaign Analytics den durchschnittlichen Umsatz pro Konversion automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Average Revenue per conversion]** können Sie den spezifischen durchschnittlichen Umsatz pro Konversion definieren.
 
-      1. Für jeden Datumsbereich in Ihrem Budget:
+     1. Für jeden Datumsbereich in Ihrem Budget:
 
-         1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
-         1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
+        1. Wählen Sie einen Datumsbereich aus dem Dropdown-Menü **[!UICONTROL Date range]** aus.
+        1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
 
-      1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) Benutzerdefinierten durchschnittlichen Umsatz pro Konversionseinheit hinzufügen , um einen Datumsbereich hinzuzufügen.
-      1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
+     1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) Benutzerdefinierten durchschnittlichen Umsatz pro Konversionseinheit hinzufügen , um einen Datumsbereich hinzuzufügen.
+     1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
 
      >[!NOTE]
      >
      >Wenn Ihr Modell keine historischen Umsatzdaten enthält, müssen Sie für jeden Datumsbereich, den Sie für Ihr Budget angegeben haben, einen durchschnittlichen Umsatz pro Konversion definieren.
      >
 
-   * Standardmäßig berechnet Mix Modeler die Kanalkosten automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Channel costs]** können Sie benutzerdefinierte Kanalkosten definieren.
+   * Standardmäßig berechnet Marketing Campaign Analytics die Kanalkosten automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Channel costs]** können Sie benutzerdefinierte Kanalkosten definieren.
 
-      1. Definieren Sie für jeden Kanal in Ihrem Modell benutzerdefinierte Kanalkosten.
+     1. Definieren Sie für jeden Kanal in Ihrem Modell benutzerdefinierte Kanalkosten.
 
-         1. Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus.
-         1. Für jeden Datumsbereich in Ihrem Budget:
-            1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
-            1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
-         1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom average revenue per conversion unit]** aus, um einen Datumsbereich hinzuzufügen.
-         1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
+        1. Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus.
+        1. Für jeden Datumsbereich in Ihrem Budget:
+           1. Wählen Sie einen Datumsbereich aus dem Dropdown-Menü **[!UICONTROL Date range]** aus.
+           1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
+        1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom average revenue per conversion unit]** aus, um einen Datumsbereich hinzuzufügen.
+        1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
 
-      1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom channel cost]** aus, um einen Kanal hinzuzufügen.
-      1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um einen benutzerdefinierten Kanal zu entfernen.
+     1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom channel cost]** aus, um einen Kanal hinzuzufügen.
+     1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um einen benutzerdefinierten Kanal zu entfernen.
 
 
 1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.

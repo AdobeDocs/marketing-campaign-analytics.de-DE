@@ -1,28 +1,34 @@
 ---
 title: Harmonisierte Felder
-description: Erfahren Sie, wie Sie Felder definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
+description: Erfahren Sie, wie Sie Felder definieren, die im Rahmen der Harmonisierung Ihrer Daten in Marketing Campaign Analytics verwendet werden sollen.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+autotag-review: '2026-05-01T09:13:17.577Z'
+TQID: 'https://experienceleague.adobe.com/ZmBwgBCVOPCVJ1pdniya3RvjWagTQuLSQoxluuDQLbc'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:13:17.577Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '694'
 ht-degree: 11%
-
 ---
-
 # Harmonisierte Felder
+
+{{mm-mca-rebranding}}
 
 Harmonisierte Felder ermöglichen es Ihnen, Felder für konzeptionell dieselben Daten aus verschiedenen Quellen mit jeweils einer eigenen Definition dieser Daten zu definieren. Beispielsweise kann eine Klicks -Metrik je nach Datenquelle unterschiedlich definiert und benannt werden. Mit einem harmonisierten Feld Klicks können Sie eine gemeinsame Nomenklatur für eine Klicks-Metrik definieren, die auf diesen verschiedenen Quellen für Klickdaten basiert.
 
@@ -30,7 +36,7 @@ Mit harmonisierten Feldern können Sie die Felder definieren, die Sie im Rahmen 
 
 ## Globale Harmonisierung
 
-Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler sind:
+Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Marketing Campaign Analytics sind:
 
 
 | Feldname | Anzeigename | Kategorie | Datentyp | Kommentar |
@@ -65,7 +71,7 @@ Zusätzlich zu diesen global harmonisierten Feldern können Sie Ihre eigenen har
 
 ## Verwalten harmonisierter Felder
 
-So zeigen Sie eine Tabelle der verfügbaren harmonisierten Felder in der Benutzeroberfläche von Mix Modeler an:
+So zeigen Sie eine Tabelle der verfügbaren harmonisierten Felder in der Benutzeroberfläche von Marketing Campaign Analytics an:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -91,7 +97,7 @@ So zeigen Sie eine Tabelle der verfügbaren harmonisierten Felder in der Benutze
 
 ### Harmonisiertes Feld hinzufügen
 
-Um ein harmonisiertes Feld hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in der Mix Modeler folgendermaßen vor:
+Um ein harmonisiertes Feld hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in der Marketing Campaign Analytics folgendermaßen vor:
 
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** aus.
 
@@ -117,7 +123,7 @@ Um ein harmonisiertes Feld hinzuzufügen, gehen Sie in der ![DataSearch](/help/a
 
 Sie können nur harmonisierte Felder bearbeiten, die Sie zuvor erstellt haben (Eigentümer ist Kunde). Globale harmonisierte Felder können nicht bearbeitet werden.
 
-So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in der Mix Modeler:
+So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in der Marketing Campaign Analytics:
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel: **[!UICONTROL Region]**.
 
@@ -131,7 +137,7 @@ So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearc
 
 Sie können nur harmonisierte Felder löschen, die Sie zuvor erstellt haben (Eigentümer ist Kunde). Globales harmonisiertes Feld kann nicht gelöscht werden.
 
-So löschen Sie ein harmonisiertes Feld in der ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in der Mix Modeler:
+So löschen Sie ein harmonisiertes Feld in der ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in der Marketing Campaign Analytics:
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie löschen möchten, z. B. **[!UICONTROL Region]**.
 
