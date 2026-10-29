@@ -2,9 +2,9 @@
 user-guide-title: Handbuch zu Marketing Campaign Analytics
 breadcrumb-title: Handbuch zu Marketing Campaign Analytics
 user-guide-description: Erfahren Sie, wie Sie Marketing Campaign Analytics verwenden.
-source-git-commit: b88d7de7fa8e964c58e1751957e09cc1699b319b
+source-git-commit: d232da07619419cc1ea789d41955a2c735eaa958
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '106'
 ht-degree: 31%
 ---
 # Handbuch zu Marketing Campaign Analytics {#using}
@@ -66,3 +66,5 @@ ht-degree: 31%
 + {hide-from-toc}[Tiefere Einblicke](/help/get-started/deep-dive.md)
 
 + [Glossar](/help/main-guide/glossary.md)
+
++ [MCP-Server](https://developer.adobe.com/analytics-mcp/docs/mca/)
