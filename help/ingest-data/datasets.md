@@ -42,7 +42,7 @@ So verwalten Sie Datensätze mit den Daten, die Sie in Experience Platform aufne
 
 1. Wählen ![Daten](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]** unter **[!UICONTROL SETUP]** aus.
 
-Weitere Informationen finden Sie [&#x200B; Handbuch zur Datensatz](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)Benutzeroberfläche .
+Weitere Informationen finden Sie [&#x200B; Handbuch zur Datensatz](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de)Benutzeroberfläche .
 
 >[!MORELIKETHIS]
 >

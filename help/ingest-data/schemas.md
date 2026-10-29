@@ -35,7 +35,7 @@ So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experie
 
 1. Wählen Sie ![Schemata](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
-Weitere Informationen dazu finden [&#x200B; in der Übersicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) Schemas-Benutzeroberfläche .
+Weitere Informationen dazu finden [&#x200B; in der Übersicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) Schemas-Benutzeroberfläche .
 
 ## Aggregierte oder zusammenfassende Daten
 
@@ -105,7 +105,7 @@ Ein Zusammenfassungs-, interner Faktor- oder externer Faktor-Datensatz kann auf 
 
 ## Unterstützte Datentypen
 
-Derzeit unterstützt Marketing Campaign Analytics eine Untergruppe von Experience Platform-Datentypen nicht. Die folgenden grundlegenden Datentypen (Felder), die unter [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) erwähnt werden, werden unterstützt:
+Derzeit unterstützt Marketing Campaign Analytics eine Untergruppe von Experience Platform-Datentypen nicht. Die folgenden grundlegenden Datentypen (Felder), die unter [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#data-type) erwähnt werden, werden unterstützt:
 
 - Zeichenfolge
 - Ganzzahl
