@@ -128,7 +128,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
      ![Modell - Faktorschritt](../assets/model-factors-dataset-step.png)
 
-     1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+     1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
 
         Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
@@ -151,7 +151,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
 1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … im **[!UICONTROL Define lookback window]** Abschnitt ein.
 
-   Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert &#x200B;](./overview.md#full-funnel-modeling):
+   Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert ](./overview.md#full-funnel-modeling):
 
    * Um das Lookback-Fenster für funnel unten zu definieren, geben Sie in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … einen Wert zwischen `1` und `52` für **[!UICONTROL Lower funnel]** im **[!UICONTROL Define lookback window]** Abschnitt ein.
 
@@ -188,7 +188,7 @@ Im **[!UICONTROL Spend share]** Abschnitt:
 
 * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**.
 
-  Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert &#x200B;](./overview.md#full-funnel-modeling):
+  Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert ](./overview.md#full-funnel-modeling):
 
   * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share for the lower funnel]**.
   * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share for the upper funnel]**.
@@ -208,7 +208,7 @@ Im **[!UICONTROL Spend share]** Abschnitt:
 
 Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 
 ### Vorkenntnisse
@@ -219,7 +219,7 @@ Im **[!UICONTROL Prior knowledge]** Abschnitt:
 
 1. Wählen Sie die **[!UICONTROL Rule type]** aus, die standardmäßig **[!UICONTROL Absolute values]** ist.
 
-1. Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert &#x200B;](./overview.md#full-funnel-modeling):
+1. Wenn Ihr Modell für die [vollständige funnel-Modellierung“ aktiviert ](./overview.md#full-funnel-modeling):
 
    * Wählen Sie entweder **[!UICONTROL Lower funnel]** oder **[!UICONTROL Upper funnel]** aus **[!UICONTROL Select metric]** als funnel-Metrik aus, die Sie für das Vorwissen verwenden möchten.
 
