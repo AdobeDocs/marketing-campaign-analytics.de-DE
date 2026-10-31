@@ -32,8 +32,8 @@ topic_v2:
     internal-label: Insights
 source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 10%
+source-wordcount: '3099'
+ht-degree: 11%
 ---
 # Modelleinblicke
 
