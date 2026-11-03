@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,11 +280,12 @@ Planung von Modellbewertung und -training:
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Aktivieren von Customer Journey Analytics"
 >abstract="Aktivieren Sie diese Einstellung, um Customer Journey Analytics Bewertungsdaten für Berichte und Analysen zur Verfügung zu stellen. Nach der Aktivierung müssen Sie das Modell löschen, um diese Einstellung zu deaktivieren."
+
+{{release-limited-testing-section}}
 
 Wenn Sie eine Berechtigung für Customer Journey Analytics haben und eine oder mehrere [Datensatzregeln](/help/harmonize-data/dataset-rules.md) für Marketing Campaign Analytics in einer bestimmten Sandbox erstellt haben:
 
