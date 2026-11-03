@@ -304,7 +304,7 @@ Um Ihre Marketing Campaign Analytics-Daten schnell in einem Customer Journey Ana
 
 1. Wählen Sie **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]** aus.
 1. Wählen Sie die dedizierte **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;als Datenansicht aus, die für ein Projekt verwendet werden soll.
-1. Wählen Sie die **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [Vorlage](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates) aus.
+1. Wählen Sie die **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [Vorlage](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates) aus.
    * Wählen Sie **[!UICONTROL Preview]** aus, um eine Vorschau anzuzeigen.
 
      ![Marketing Campaign Analytics-Vorlagenvorschau](/help/assets/model-cja-enable-template.png)
