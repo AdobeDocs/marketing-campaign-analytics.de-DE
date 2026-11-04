@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: 5dfbd7542422d93969c2ffe44475d847693e8910
 workflow-type: tm+mt
-source-wordcount: '3099'
-ht-degree: 11%
+source-wordcount: '3122'
+ht-degree: 10%
 ---
 # Modelleinblicke
 
@@ -154,6 +154,8 @@ Wenn [vollständige funnel-Modellierung](./overview.md#full-funnel-modeling) fü
 >[!ENDTABS]
 
 Bewegen Sie den Mauszeiger über einen beliebigen Fluss, um ein Popup mit weiteren Details für den spezifischen funnel-Fluss anzuzeigen.
+
+Der Kanal, der der ausgewählten funnel-Konversion oben zugeordnet ist (wie in [Konversionen](/help/harmonize-data/conversions.md) definiert), wird in der Mitte der Visualisierung angezeigt (zum Beispiel: **[!UICONTROL Store]**).
 
 ### Touchpoint-Aufschlüsselung
 
