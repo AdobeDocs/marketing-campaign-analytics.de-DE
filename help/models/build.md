@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
-ht-degree: 8%
+ht-degree: 10%
 ---
 # Erstellen von Modellen
 
@@ -283,7 +283,7 @@ Planung von Modellbewertung und -training:
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Aktivieren von Customer Journey Analytics"
->abstract="Aktivieren Sie diese Einstellung, um Customer Journey Analytics Bewertungsdaten für Berichte und Analysen zur Verfügung zu stellen. Nach der Aktivierung müssen Sie das Modell löschen, um diese Einstellung zu deaktivieren."
+>abstract="Aktivieren Sie diese Einstellung, um Bewertungsdaten für Berichte und Analysen in Customer Journey Analytics verfügbar zu machen. Nach der Aktivierung müssen Sie das Modell löschen, um diese Einstellung zu deaktivieren."
 
 {{release-limited-testing-section}}
 
